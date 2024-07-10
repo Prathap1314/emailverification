@@ -1,0 +1,81 @@
+/* src/registration.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8a32399;
+    
+    margin-top: 30px;
+  }
+  
+  .register-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    box-shadow: 0 0 25px rgb(39, 30, 30);
+    background-color: rgb(202, 225, 197);
+  }
+  .register-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #100f0f;
+    border-radius: 4px;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-group button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .phone-input-container {
+    width: 100%;
+  }
+  
+  .phone-input {
+    width: 100%;
+    padding: 10px;
+  }
+.btn{
+    background-color: blue;
+width: 100%;
+padding: 5px;
+border: 3px solid rgb(16, 16, 15);
+color: antiquewhite;
+  }
+  
